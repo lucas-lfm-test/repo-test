@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    margin: 0;
+}
+
+summary {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+}
+
+#details-icon {
+    font-weight: bold;
+}
